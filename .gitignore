@@ -1,0 +1,51 @@
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# Generated database initialization files
+init-scripts/init-user.sql
+
+# Database data
+postgres_data/
+
+# N8N data
+n8n_data/
+
+# Logs
+logs/
+*.log
+
+# Backup files
+backups/*.json
+backups/*.zip
+
+# Temporary files
+tmp/
+temp/
+
+# Python cache
+__pycache__/
+
+# Cache
+cache__/
+
+# Custom nodes
+custom-nodes/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if using custom nodes locally)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
